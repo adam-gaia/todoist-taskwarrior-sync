@@ -2,6 +2,8 @@
 
 A tool for syncing Todoist tasks with Taskwarrior.
 
+Forked from https://git.webmeisterei.com/webmeisterei/todoist-taskwarrior/, which was forked from https://github.com/matt-snider/todoist-taskwarrior
+
 ## Installation
 
 ```bash
@@ -66,4 +68,4 @@ Licensed under the MIT license.
 ## Authors
 
 - 2018-2019 [matt-snider](https://github.com/matt-snider/todoist-taskwarrior)
-- 2019-     [webmeisterei](https://git.webmeisterei.com/webmeisterei/todoist-taskwarrior)
+- 2019- [webmeisterei](https://git.webmeisterei.com/webmeisterei/todoist-taskwarrior)

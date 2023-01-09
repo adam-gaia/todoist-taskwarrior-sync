@@ -40,3 +40,7 @@ venv/
 
 # vscode
 .vscode/
+
+# Nix related
+.direnv/
+result
