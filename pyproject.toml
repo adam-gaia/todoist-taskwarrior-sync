@@ -7,16 +7,17 @@ authors = ["Adam Gaia", "René Jochum", "Matt Snider"]
 [tool.poetry.dependencies]
 python = "^3.10"
 click = "^8.1.3"
+taskw = {git = "https://github.com/adam-gaia/taskw.git", branch = "main"}
+todoist-python = "8.0.2" # Cannot update past 8.0.2 because nix build stuff breaks.
+# TODO: port to gitub:doist/todoist-api-python (which also breaks nix build stuff)
 pyyaml = "^6.0"
-todoist-python = "^8.1.3"
-taskw = { path = "./taskw", develop = true }
 
 [tool.poetry.dev-dependencies]
 black = "^22.8.0"
-pytest = "^7.1.3"
-flake8 = "^5.0.4"
-pylint = "^2.15.2"
-mypy = "=0.961"
+#pytest = "^7.1.3"
+#flake8 = "^5.0.4"
+#pylint = "^2.15.2"
+#mypy = "=0.961"
 
 [tool.poetry.scripts]
 titwsync = 'todoist_taskwarrior.cli:cli'

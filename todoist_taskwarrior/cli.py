@@ -12,8 +12,8 @@ from . import errors, log, utils, validation
 
 # This is the location where the todoist
 # data will be cached.
-TODOIST_CACHE = '~/.todoist-sync/'
-TITWSYNCRC = '~/.titwsyncrc.yaml'
+TODOIST_CACHE = '~/.local/share/task/todoist-sync/'
+TITWSYNCRC = '~/.config/titwsync/titwsyncrc.yaml' # TODO: read XDG_CONFIG_DIR
 
 
 config = None
