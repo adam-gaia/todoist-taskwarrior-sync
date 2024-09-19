@@ -1,4 +1,4 @@
-Click==7.0
+Click==7.1.2
 todoist-python==8.1.4
 pyyaml
 
