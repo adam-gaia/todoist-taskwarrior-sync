@@ -306,12 +306,13 @@ resolved_reference = "e3e06be9f77edd475e80b272137f118defa483fe"
 
 [[package]]
 name = "todoist-python"
-version = "8.0.2"
+version = "8.1.4"
 description = "todoist-python - The official Todoist Python API library"
 optional = false
 python-versions = "*"
 files = [
-    {file = "todoist_python-8.0.2-py2.py3-none-any.whl", hash = "sha256:4f3817847ebc33d67e67b9799a6dac0e8d55db749a53a8e494c1b22c3cb759d5"},
+    {file = "todoist-python-8.1.4.tar.gz", hash = "sha256:46483a7922e241ef0365a56ed8312794a2def112e44702a6a70f936988fe969d"},
+    {file = "todoist_python-8.1.4-py2.py3-none-any.whl", hash = "sha256:ad2e06934de62466c3540c8b94b5b86d82dbd9df65de02d7f4b4987b91b21f3f"},
 ]
 
 [package.dependencies]
@@ -358,4 +359,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "ad9a6acba9875b5db591775baf34d3a8937213636a4c2e812662f1f1cc3273c1"
+content-hash = "b1fac0af4eb793fb26d5264e08053e198b9f9b49975ecd6bd3c26ea602aae9d4"

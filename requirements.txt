@@ -1,5 +1,5 @@
 Click==7.0
-todoist-python==8.0.0
+todoist-python==8.1.4
 pyyaml
 
 # Temporarily use this until upstream PR #121 is merged
